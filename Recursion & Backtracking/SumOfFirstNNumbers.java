@@ -4,12 +4,11 @@ public class SumOfFirstNNumbers {
         System.out.println(sum);
     }
 
-    static int recursiveSumOfNNumbers(int n){
-        if(n == 1){
+    static int recursiveSumOfNNumbers(int n) {
+        if (n == 1) {
             return 1;
         }
-        int sum = n + recursiveSumOfNNumbers( n - 1);
+        int sum = n + recursiveSumOfNNumbers(n - 1);
         return sum;
     }
-
 }
