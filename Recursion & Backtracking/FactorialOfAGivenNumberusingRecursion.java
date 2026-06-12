@@ -5,7 +5,7 @@ public class FactorialOfAGivenNumberusingRecursion {
     }
 
     static long factorial(int N) {
-        if (N == 0 || N == 1) {
+        if(N == 0 || N == 1) {
             return 1;
         }
 
