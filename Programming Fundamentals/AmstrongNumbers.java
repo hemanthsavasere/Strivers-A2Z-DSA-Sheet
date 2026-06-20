@@ -14,7 +14,7 @@ public class AmstrongNumbers {
         while (num != 0) {
             long digit = num % 10;
             num /= 10;
-            result += (int)(Math.pow(digit, pow));
+            result += (long)(Math.pow(digit, pow));
         }
         
         return result == temp;
